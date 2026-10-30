@@ -1,6 +1,6 @@
 ## 技术报告
 
-[RMTC](https://www.yuque.com/g/xyzfrozen/mcnuvk/zi8pklv11iulo6er/collaborator/join?token=7Lj8quChuY1Plt1U&source=doc_collaborator# 《RMTC》)
+[RMTC](https://www.yuque.com/g/xyzfrozen/mcnuvk/zi8pklv11iulo6er/collaborator/join?token=7Lj8quChuY1Plt1U&source=doc_collaborator#)
 
 ## 获取与运行环境
 
