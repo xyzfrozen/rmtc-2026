@@ -14,7 +14,7 @@
     "docs/现场启动说明.md": "8dab50c2f930d6da1e8e546369bd19b6156f9f0845589089856f852c76c2f2c0",
     "docs/迁移与验收.md": "8029eccdaa84fe81920f26ab98d9e3951c8a6bc3758c7cf8cfb27755429b437f",
     "docs/迁移提示词.md": "8b877f23b8123e9b3416cee763392e7d3e161607849b016c632aae1d576054c5",
-    "docs/验证摘要.md": "5f62cfdd74429c5370ed9134de510feb27123acf4e5b22700ec89e2d8f8867a8",
+    "docs/验证摘要.md": "2f01e4e900da75102029e153aae4d884d5b1823c5e816129c720fcd4ecd618b9",
     "stage1/CMakeLists.txt": "f3f82863d9752521e7625315021439176120f0445803a9d42885a5aa380b8389",
     "stage1/build.sh": "324dff9912ff605b8a94a4c4bab0fe1b4d926f01559b41af4a7d928ab88e87dc",
     "stage1/include/rmtc_stage1/collector.hpp": "b9950effa6a6d12baa2a673e20a59cb676bd9eddb805a58522cfe71808dd8b66",
@@ -140,6 +140,20 @@
     "source_unchanged": true,
     "private_repository_requested": true,
     "includes_official_practice_package": false,
-    "practice_zip_sha256": "4abe666edddd4d92f5a290ce8175e7f20c1e4bf44c2a83afa7c5b35297051f84"
+    "practice_zip_sha256": "4abe666edddd4d92f5a290ce8175e7f20c1e4bf44c2a83afa7c5b35297051f84",
+    "prepared_at": "2026-10-30T21:45:49.109744+08:00",
+    "clean_clone_validation": {
+      "build_passed": true,
+      "ctest_passed": 3,
+      "source_files_checked": 45,
+      "synthetic_ros_actions": {
+        "stage1_A": 20,
+        "stage2_B": 20
+      },
+      "local_mock_http_calls": 1,
+      "paid_calls": 0,
+      "new_full_games": 0,
+      "other_computer_verified": false
+    }
   }
 }
