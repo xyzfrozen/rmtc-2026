@@ -1,3 +1,7 @@
+## 技术报告
+
+[RMTC](https://www.yuque.com/g/xyzfrozen/mcnuvk/zi8pklv11iulo6er/collaborator/join?token=7Lj8quChuY1Plt1U&source=doc_collaborator# 《RMTC》)
+
 ## 获取与运行环境
 
 Ubuntu 22.04、x86_64、ROS 2 Humble、C++17、Python 3.10。主办方公开练习裁判是x86_64程序。新电脑详细步骤见[迁移与验收](docs/迁移与验收.md)，可交给另一台电脑上Codex执行的任务卡见[迁移提示词](docs/迁移提示词.md)。
