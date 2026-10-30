@@ -1,0 +1,4 @@
+{
+  "gateway_url":"http://填写裁判机IP:填写端口/v1/chat/completions",
+  "network_interface":"填写有线网卡名"
+}

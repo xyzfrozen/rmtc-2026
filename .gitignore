@@ -1,0 +1,15 @@
+**/build*/
+**/__pycache__/
+**/logs/
+**/test-results/
+local/
+third_party/
+output/
+config/match.json
+*.key
+*.env
+.env
+.env.*
+*.pem
+*.p12
+.DS_Store

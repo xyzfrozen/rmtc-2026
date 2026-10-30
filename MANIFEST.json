@@ -1,0 +1,145 @@
+{
+  "status": "versioned source for cross-computer migration; known real-event semantic failures remain; not official sealing",
+  "date": "2026-10-30T20:03:42.854152+08:00",
+  "rules": "v1.2",
+  "protocol": "v1.1",
+  "handbook": "received 2026-10-30",
+  "source_sha256": {
+    ".gitignore": "6a1a459901fa37dc26237663170f71e696e16c3bac35673045f3ee2e50babef6",
+    "AGENTS.md": "93f4e1c66a3a55bd5543711c40b61e1b07bff8e0a1aaa7dfd25b2173d2953a08",
+    "README.md": "2fa94c2521e50b5fa652a346daec9f9111393587e843b3d131b342e962236a77",
+    "build.sh": "724cac6dba79f850f6b40c8d7f2d100da04c12edadf5dfa1e2d9f4716f80a97f",
+    "config/match.example.json": "bf17189388a8cdbff45307519c176758462eb4cda9f827994e6dd38df9795db2",
+    "docs/本机练习与截图.md": "829772bc27691bcb776d5c21da7b254481cf78e6fa46f8ba7299f2b6971bb49a",
+    "docs/现场启动说明.md": "8dab50c2f930d6da1e8e546369bd19b6156f9f0845589089856f852c76c2f2c0",
+    "docs/迁移与验收.md": "8029eccdaa84fe81920f26ab98d9e3951c8a6bc3758c7cf8cfb27755429b437f",
+    "docs/迁移提示词.md": "8b877f23b8123e9b3416cee763392e7d3e161607849b016c632aae1d576054c5",
+    "docs/验证摘要.md": "5f62cfdd74429c5370ed9134de510feb27123acf4e5b22700ec89e2d8f8867a8",
+    "stage1/CMakeLists.txt": "f3f82863d9752521e7625315021439176120f0445803a9d42885a5aa380b8389",
+    "stage1/build.sh": "324dff9912ff605b8a94a4c4bab0fe1b4d926f01559b41af4a7d928ab88e87dc",
+    "stage1/include/rmtc_stage1/collector.hpp": "b9950effa6a6d12baa2a673e20a59cb676bd9eddb805a58522cfe71808dd8b66",
+    "stage1/package.xml": "aa878ad92806d41ebbd5facaa9e2adb80d2b9967d3f3d2f9949797ead8f6a56a",
+    "stage1/run.sh": "c71aa034565abcdc8556775ce82f5888bdc4864fe7a1d769f34832be753484b1",
+    "stage1/src/collector.cpp": "6f3c5200fc2e8c2bcdac7202fd65be0bc49042e10ee7063a6d3065b9022b2ed7",
+    "stage1/src/node.cpp": "959ecb5bf5f7e01f9baf2ecfe1ae389593de41b67773bc43c7dffe0abb2fb1ca",
+    "stage1/src/replay.cpp": "d8e0b5d554e6a9b35f5e69ae14d1c8f217f05b7728094c94133e7fd18bbbb91a",
+    "stage1/tests/core_tests.cpp": "ded83eb40a76dc4efbb0e541ff31a8fed82f0c14e2093201eaa75519325d6f19",
+    "stage1/tools/practice_check.py": "ba817ea082e595e7e83f762bfe9f8583d44355997272d865356ea16fdb6fd28a",
+    "stage2/CMakeLists.txt": "7825e644f26621546103ade456a1d47a371c7d2192ae789f78a438b67bcb428c",
+    "stage2/build.sh": "324dff9912ff605b8a94a4c4bab0fe1b4d926f01559b41af4a7d928ab88e87dc",
+    "stage2/deps/stage1/include/rmtc_stage1/collector.hpp": "b9950effa6a6d12baa2a673e20a59cb676bd9eddb805a58522cfe71808dd8b66",
+    "stage2/deps/stage1/src/collector.cpp": "6f3c5200fc2e8c2bcdac7202fd65be0bc49042e10ee7063a6d3065b9022b2ed7",
+    "stage2/include/battle.hpp": "ee950a142032a8b8936f5dab8dfd712ed62ab873463e69a0f4f94bbaa95acdef",
+    "stage2/include/event_prompt.hpp": "85a83364bbf9f72db4e1cdc86a669be1a9da4da0decaa5a6d1153cd2bffb76dc",
+    "stage2/include/gateway.hpp": "de4c94c7ad3d6d7e5188eed295add498ed5688257429ad7cfbe7dc6c4557a390",
+    "stage2/package.xml": "1e897ed385f3a183414a426cfc90d3b8910e1a961411c8c871de0463ec1fd640",
+    "stage2/run.sh": "d6d408a3fe20f99e69fb0316311603db98e5580498625d8097fead4f48940288",
+    "stage2/src/bot.cpp": "b8742f79dc7393e2e9eac5217b30e2ca5705c94e690791c3d48fe1016eb713fe",
+    "stage2/src/combat.cpp": "db119b8723d10e3646b20131751fe4766f2e766c518b86df16fe961073bd9398",
+    "stage2/src/events.cpp": "5749ee96a1dc4367857371295327dfd5791d7255019c89b2ae368fb3b3693728",
+    "stage2/src/gateway.cpp": "7103c27d38e02844b504aafedeae0ced36a563d0cb7a31973f305e07107f57c8",
+    "stage2/src/node.cpp": "88168cc99a62037f7802a176a9a6c0224496153e12015a4647b294f2bf2005fe",
+    "stage2/src/protocol.cpp": "4aa8f10b781d91c71e42992de0f19f5747f32d78c5c1a9e910bda67c96d5a657",
+    "stage2/tests/core_tests.cpp": "61abcbd2a88757cf17c22c01a44d18adc018a707f82f0db44f0f36f2d31029d3",
+    "stage2/tests/fusion_tests.cpp": "2163c66c8e06f02cd32e99cb8fb4ae0c9c5bc23817505745ce485eaef891c40c",
+    "stage2/tests/gateway_probe.cpp": "d7305b2f9c04ed37d9d25aeb303862ec50b15bbcc3003a6335f49fd6ee20765a",
+    "stage2/tests/replay.cpp": "3791ea1a6db5f17280799ffeeae679112a977739a2e4072ad225cc880054b20a",
+    "start.sh": "33aa0f48deee2413862a460d6eda6113a75b0a521ba92124d1830d2d6db56a2b",
+    "tools/launch.py": "cecd5db019fb0c6abc049fe805f8ce6f61394e4cca1bbb8492d61ac0c97458ea",
+    "tools/show_precheck.py": "21a059015ce679ef0efe8a89001ac48d9be2bab508cfb12ca9f4960245116fce",
+    "tools/smoke_ros.py": "85d3ed067e7af1a76b0c1ef4cdf0f07b4ca58606afb6951a7cdd500cdd044def",
+    "tools/smoke_ros.sh": "a0c5a85c843c3d97cc8187c584175e1ed34408509cc00be0d2157b947b6a64cb",
+    "tools/verify_source.py": "6ff52db964cbc2ddca98502ceb24fe192521e6fc09051228d19bd621fe3a4916"
+  },
+  "local_binary_sha256": {
+    "stage1": "b623567eb3b9d2bdd4f35eb7e46d95789431f5fe5e758a12b85d1f043386f79f",
+    "stage2": "a39035724a5d63608b4029ace5327c42e084ab2019294c321f979dfa93f3572a"
+  },
+  "binary_note": "Recorded for this local build; the archive contains source only.",
+  "stage1_unchanged": true,
+  "strategy_and_prompt_unchanged": true,
+  "network_parameters_pending": true,
+  "match_arguments": [
+    "--ros-domain-id",
+    "--team",
+    "--team-name"
+  ],
+  "previous_fusion_validation": {
+    "stage2_games": 84,
+    "stage2_submitted_windows": 168000,
+    "stage1_cases": 6,
+    "formal_qualification_verified": false,
+    "physical_LAN_verified": false,
+    "binary_sha256": "620e994a1a0a4e90b9a0196483d4fc06d1825e8073bd43493b06a8a791d5ffc0",
+    "scope": "historical pre-handbook build; not current 512-token complete-game testing"
+  },
+  "current_checks": {
+    "build": {
+      "passed": true,
+      "ctest_passed": 2,
+      "log": "build.log"
+    },
+    "gateway_checks": {
+      "passed": 10,
+      "total": 10,
+      "file": "gateway-checks.json"
+    },
+    "node_checks": {
+      "passed": 8,
+      "total": 8,
+      "file": "node-checks/results.json"
+    },
+    "launcher_checks": {
+      "passed": 5,
+      "total": 5,
+      "invalid_input_cases": 11,
+      "actual_node_ticks": 30,
+      "seats": [
+        "stage1-A",
+        "stage2-B",
+        "stage2-D"
+      ],
+      "domain": 212,
+      "file": "launch-checks/results.json"
+    },
+    "real_semantics": {
+      "initial": {
+        "passed": 4,
+        "total": 5,
+        "file": "real-512.json"
+      },
+      "pan_recheck": {
+        "passed": 0,
+        "total": 3,
+        "file": "real-512-pan-recheck.json"
+      },
+      "passed": 4,
+      "total": 8,
+      "http_success": 8,
+      "structurally_accepted": 8,
+      "unresolved": "single-vehicle vulnerability omitted 3 times, start tick one early once; no output truncation; causality with token cap not established",
+      "usage": {
+        "prompt_tokens": 6748,
+        "completion_tokens": 430,
+        "prompt_cache_hit_tokens": 5248,
+        "total_tokens": 7178
+      },
+      "cache_note": "cached input is included in prompt_tokens; not additional usage",
+      "formal_qualification": false
+    },
+    "new_full_games": 0,
+    "physical_LAN_verified": false,
+    "other_computer_verified": false
+  },
+  "github_repository": "https://github.com/xyzfrozen/rmtc-2026",
+  "release_tag": "v1.2-20261030",
+  "official_submission_confirmed": false,
+  "collaborators_pending": true,
+  "migration_note": "Only source hashes are checked across computers; binary hashes identify the previous local build.",
+  "handoff": {
+    "source_unchanged": true,
+    "private_repository_requested": true,
+    "includes_official_practice_package": false,
+    "practice_zip_sha256": "4abe666edddd4d92f5a290ce8175e7f20c1e4bf44c2a83afa7c5b35297051f84"
+  }
+}
